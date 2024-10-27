@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "SERP Counter",
+  "version": "1.0",
+  "description": "Counts and displays metrics for search engine results pages",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["*://www.google.com/search*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+.serp-metrics {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  font-family: Arial, sans-serif;
+}
+
+.serp-metrics h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.metric {
+  margin: 5px 0;
+  font-size: 14px;
+}
