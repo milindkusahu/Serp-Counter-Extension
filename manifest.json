@@ -3,10 +3,17 @@
   "name": "SERP Counter",
   "version": "1.0",
   "description": "Counts and displays metrics for search engine results pages",
+  "author": "Milind Sahu",
   "permissions": ["activeTab"],
   "content_scripts": [
     {
-      "matches": ["*://www.google.com/search*"],
+      "matches": [
+        "*://www.google.com/search*",
+        "*://www.google.*/search*",
+        "*://www.linkedin.com/search/*",
+        "*://twitter.com/search*",
+        "*://x.com/search*"
+      ],
       "js": ["content.js"],
       "css": ["styles.css"]
     }
